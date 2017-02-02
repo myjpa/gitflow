@@ -22,6 +22,19 @@ Or have a look at one of these screen casts:
 
 Installing git-flow
 -------------------
+Please follow these steps to install from this myjpa/gitflow repo:
+
+    $ curl -OL https://raw.github.com/myjpa/gitflow/develop/contrib/gitflow-installer.sh
+    $ chmod +x gitflow-installer.sh
+    $ sudo ./gitflow-installer.sh
+
+For user installation, for example in ```~/bin``` :
+
+    $ INSTALL_PREFIX=~/bin ./gitflow-installer.sh
+
+And if the installation directory (here, ```~/bin```) is in the user's path, git will find the git-flow extensions.
+
+Please follow the steps above, the link below is just for reference on how to install the "official" build
 See the Wiki for up-to-date [Installation Instructions](https://github.com/nvie/gitflow/wiki/Installation).
 
 
